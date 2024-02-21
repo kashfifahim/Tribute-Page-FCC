@@ -1,6 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+h1, #hero-description {
+    text-align: center;
+    font-family: Impact, "Haettenschweiler", 'Arial Narrow Bold', sans-serif;
+}
+
+#img-caption {
+    font-size: small;
+}
+
 #image {
     max-width: 100%;
     height: auto;
     padding: 0 auto;
     display: block;
-  }
+}
+
+#tribute-info, #trib-link-section, #hero-section, #blockquote-div {
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border: 15px solid red;
+    border-radius: 25px;
+    background-color: gold;
+}
+
+#headline {
+    text-align: center;
+}
+
+#time, #scored {
+    font-weight: bold;
+}
+
+#time {
+    margin-right: 5px;
+}
+
+#scored {
+    margin-left: 5px;
+}
+
+blockquote > p {
+    font-size: 30px;
+    text-align: center;
+}
+
+cite {
+    font-weight: bold;
+}
+
+li {
+    margin-top: 3%;
+}
