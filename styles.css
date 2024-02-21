@@ -25,13 +25,11 @@ h1, #hero-description {
 
 #tribute-info, #trib-link-section, #hero-section, #blockquote-div {
     margin-top: 5%;
-    padding-left: 2.5%;
-    padding-right: 5%;
-    padding-bottom: 5%;
     border: 15px solid red;
     border-radius: 1%;
     background-color: gold;
     text-align: center;
+    max-width: 100%;
 }
 
 ul {
